@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './page/Home'
-import Sub from './page/Sub'
+import RecodeList from './page/RecodeList'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import RecodeDetail from './page/RecodeDetail'
 
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
             <div>
                 <Routes>
                     <Route index element={<Home />} />
-                    <Route path="sub" element={<Sub />} />
+                    <Route path="recode/list" element={<RecodeList />} />
+                    <Route path="recode/:id" element={<RecodeDetail />} />
                 </Routes>
             </div>
             <Footer />
