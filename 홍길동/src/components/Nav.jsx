@@ -4,7 +4,7 @@ function Nav() {
     return (
         <nav className="font-bold underline">
             <Link to="/">홈</Link>
-            <Link to="/recode/list">기록목록</Link>
+            <Link to="/recode/list">목록</Link>
         </nav>
     )
 }
