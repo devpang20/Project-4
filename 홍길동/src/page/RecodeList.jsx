@@ -29,7 +29,7 @@ function Recode() {
                     ))}
                 </tbody>
             </table>
-            <Link to="/recode/add">글쓰기</Link>
+            <Link to="/recode/add">등록</Link>
         </>
     )
 }
